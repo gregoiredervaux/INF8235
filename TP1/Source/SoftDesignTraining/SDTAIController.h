@@ -16,4 +16,11 @@ class SOFTDESIGNTRAINING_API ASDTAIController : public AAIController
     GENERATED_BODY()
 public:
     virtual void Tick(float deltaTime) override;
+	ASDTAIController ();
+	FVector GetSpeedVector(FVector speedVector, FVector accVector, float deltaTime);
+	void DrawCharacterAxes(UWorld * world, APawn * pawn);
+protected:
+	float acc;
+	float vitesseMax;
+	FVector speed;
 };
