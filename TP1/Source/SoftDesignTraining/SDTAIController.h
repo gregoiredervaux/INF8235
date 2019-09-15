@@ -19,6 +19,8 @@ public:
 	ASDTAIController ();
 	FVector GetSpeedVector(FVector speedVector, FVector accVector, float deltaTime);
 	void DrawCharacterAxes(UWorld * world, APawn * pawn);
+	void HandleCollision(FVector currentLocation);
+	
 protected:
 	float acc;
 	float vitesseMax;
