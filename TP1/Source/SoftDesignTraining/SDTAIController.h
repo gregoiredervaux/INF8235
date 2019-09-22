@@ -26,5 +26,6 @@ protected:
 	float acc;
 	float vitesseMax;
 	FVector speed;
+	FVector targetCollectibleLocation;
 	float currentRotation;
 };
