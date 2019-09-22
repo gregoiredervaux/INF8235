@@ -14,32 +14,51 @@
 #include "PhysicsHelpers.h"
 #include <algorithm>
 
-const float DISTANCE_CHECK = 200.0f;
-const float DISTANCE_COLLECTIBLE_CHECK = 250.0f;
+const float DISTANCE_CHECK = 250.0f; //Max distance at which the agent will detect obstacles
+const float DISTANCE_COLLECTIBLE_CHECK = 250.0f; //Max distance at which the agent will detect collectibles
+const float MAX_ANGLE_CHECK = 130; //Only paths with [MAX_ANGLE_CHECK or less] rotation necessary will be considered.
+const float MAX_ROTATION_PER_TICK = 10; //if [newDirection.Yaw > MAX_ROTATION_PER_TICK], the pawn's current rotation will increase of MAX_ROTATION_PER_TICK every tick until it reaches newDirection.Yaw
 
-ASDTAIController::ASDTAIController() : speed(0,0,0), vitesseMax(500.0f), acc(500.0f){
+const FVector INITIAL_SPEED(0, 0, 0);
+const float MAX_SPEED = 500.0f;
+const float ACCELERATION = 500.0f;
+
+ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEED), acc(ACCELERATION),currentRotation(0){
 	
 }
-
 void ASDTAIController::Tick(float deltaTime)
 {
 	UWorld * World = GetWorld();
 	
 	APawn* pawn = GetPawn();
-	if (!HandleCollect(pawn->GetActorLocation())) {
+	if (currentRotation == 0 && !HandleCollect(pawn->GetActorLocation())) {
 		HandleCollision(pawn->GetActorLocation());		
 	}	
 	FVector accVector = pawn->GetActorForwardVector() * acc; 
 	FVector newSpeed = GetSpeedVector(speed, accVector, deltaTime); //Get new speed vector based on acc
 
 	pawn->SetActorLocation(pawn->GetActorLocation() + newSpeed * deltaTime);
-	//pawn->AddMovementInput(newSpeed * deltaTime);
 	
 	if (FVector::Dist(newSpeed.GetSafeNormal(), pawn->GetActorForwardVector()) > 0.1f) {
-		float angle = std::acos(FVector::DotProduct(newSpeed.GetSafeNormal2D(), pawn->GetActorForwardVector().GetSafeNormal2D()));
-		pawn->AddActorWorldRotation(FRotator(0.0f, angle * 180 / PI, 0.0f)); //Rotate pawn to it's new speed vector
+		FRotator curr = pawn->GetActorForwardVector().Rotation();
+		FRotator dir = newSpeed.GetSafeNormal2D().Rotation();
+		float angle = currentRotation ? currentRotation : dir.Yaw - curr.Yaw;
+		angle = angle > 180 ? -(360 - angle) : angle;
+
+		if (std::abs(angle) > MAX_ROTATION_PER_TICK) {
+			currentRotation = angle > 0 ? angle - MAX_ROTATION_PER_TICK : angle + MAX_ROTATION_PER_TICK;
+			pawn->SetActorRotation(FQuat(pawn->GetActorRotation() + FRotator(0.0f, angle > 0 ? MAX_ROTATION_PER_TICK :-MAX_ROTATION_PER_TICK, 0.0f)));
+			
+		}
+		else {
+			pawn->SetActorRotation(FQuat(pawn->GetActorRotation() + FRotator(0.0f, angle, 0.0f)));
+			currentRotation = 0;
+		}
 	}
-	speed = newSpeed;
+	else {
+		currentRotation = 0;
+	}
+	speed = pawn->GetActorForwardVector().GetSafeNormal2D() * newSpeed.Size2D();
 
 }
 
@@ -90,16 +109,23 @@ void ASDTAIController::HandleCollision(FVector currentLocation)
 	int norm = bestDir.Size2D();
 	norm = main->IsPoweredUp() ? DISTANCE_CHECK : std::min(norm,(int)DISTANCE_CHECK);
 	if(!GetWorld()->SweepMultiByChannel(hits, start, start + bestDir.GetSafeNormal2D() * norm, speed.GetSafeNormal2D().ToOrientationQuat(),ECC_Pawn, shape)){
-		//bestDir has no obstacle
-		int diffAngle = bestDir.Rotation().Yaw - speed.Rotation().Yaw;
-		if (std::abs(diffAngle) <= 5) {
+		/*int diffAngle = std::acos(FVector::DotProduct(bestDir.GetSafeNormal2D(), speed.GetSafeNormal2D())) * 180 / PI;
+		int scalar = FVector::DotProduct(bestDir.GetSafeNormal2D(), speed.GetSafeNormal2D());
+		if (std::abs(diffAngle) <= 30) {
 			speed = bestDir.GetSafeNormal2D() * speed.Size2D();
 		}
 		else {
 			FRotator dir = speed.Rotation();
-			dir.Yaw += (diffAngle / std::abs(diffAngle)) * 5;
+			if (scalar > 0) {
+				dir.Yaw -= std::min(30,diffAngle);
+			}
+			else {
+				dir.Yaw += std::min(30,diffAngle);
+			}
 			speed = dir.Vector().GetSafeNormal2D() * speed.Size2D();
 		}
+		return;*/
+		speed = bestDir.GetSafeNormal2D() * speed.Size2D();
 		return;
 	}
 	int angle = 0; //Starting angle used to find which side is cleared
@@ -113,7 +139,7 @@ void ASDTAIController::HandleCollision(FVector currentLocation)
 		
 	bool leftClear = false;
 	bool rightClear = false;
-	while (wallAhead && angle < 135) { //As long as the current direction leads to a wall
+	while (wallAhead && angle < MAX_ANGLE_CHECK) { //As long as the current direction leads to a wall
 		if (!leftClear) {
 			leftVector.Yaw -= 1;
 		}
@@ -137,12 +163,12 @@ void ASDTAIController::HandleCollision(FVector currentLocation)
 	}
 	FRotator dir = speed.GetSafeNormal2D().Rotation();
 	if (leftClear && (rightClear ? angleLeft< angleRight: true)) {
-		dir.Yaw -= 3;//std::min(angle,5);
-		speed = dir.Vector().GetSafeNormal2D() * speed.Size2D();
+		dir.Yaw -= 5;//std::min(angle,5);
+		speed = leftVector.Vector().GetSafeNormal2D() * speed.Size2D();
 	}
 	else if (rightClear && (leftClear ? angleRight < angleLeft:true)) {
-		dir.Yaw += 3; // std::min(angle, 5);
-		speed = dir.Vector().GetSafeNormal2D() * speed.Size2D();
+		dir.Yaw += 5; // std::min(angle, 5);
+		speed = rightVector.Vector().GetSafeNormal2D() * speed.Size2D();
 	}	
 }
 

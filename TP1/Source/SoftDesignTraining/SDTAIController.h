@@ -26,4 +26,5 @@ protected:
 	float acc;
 	float vitesseMax;
 	FVector speed;
+	float currentRotation;
 };
