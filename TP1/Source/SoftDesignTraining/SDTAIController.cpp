@@ -13,6 +13,7 @@
 #include "SoftDesignTrainingMainCharacter.h"
 #include "PhysicsHelpers.h"
 #include <algorithm>
+#include <list>
 
 const float DISTANCE_CHECK = 250.0f; //Max distance at which the agent will detect obstacles
 const float DISTANCE_COLLECTIBLE_CHECK = 800.0f; //Max distance at which the agent will detect collectibles
@@ -25,7 +26,7 @@ const float MAX_SPEED = 500.0f;
 const float ACCELERATION = 500.0f;
 
 
-ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEED), acc(ACCELERATION),currentRotation(0),targetCollectibleLocation(0,0,0){
+ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEED), acc(ACCELERATION),currentRotation(0),targetCollectibleLocation(0,0,0),deathFloorLocations() {
 	
 }
 void ASDTAIController::Tick(float deltaTime)
@@ -33,6 +34,22 @@ void ASDTAIController::Tick(float deltaTime)
 	UWorld * World = GetWorld();
 	
 	APawn* pawn = GetPawn();
+
+	// GET DEATH TRAPS
+	TSubclassOf<UStaticMeshComponent> classes;
+	TArray<AActor*> outActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AStaticMeshActor::StaticClass(), outActors);
+
+	if (deathFloorLocations.size() == 0)
+	for (int i = 0; i < outActors.Num(); i++) {
+		if (outActors[i]->GetName().Contains("DeathFloor")) {
+			deathFloorLocations.push_front(outActors[i]->GetActorLocation());
+			UE_LOG(LogTemp, Warning, TEXT("class is : %s"), *outActors[i]->GetName());
+		}
+	}
+	UE_LOG(LogTemp, Warning, TEXT("size of array is : %s"), *FString::FromInt(deathFloorLocations.size()));	
+	//
+
 	if (currentRotation == 0 && !HandleCollect(pawn->GetActorLocation())) {
 		HandleCollision(pawn->GetActorLocation());
 		
