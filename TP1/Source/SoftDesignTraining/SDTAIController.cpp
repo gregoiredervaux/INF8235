@@ -30,6 +30,8 @@ const int MIN_DISTANCE_TRAPS = 380.0f;
 ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEED), acc(ACCELERATION),currentRotation(0),targetCollectibleLocation(0,0,0),deathFloorLocations() {
 	
 }
+
+
 void ASDTAIController::Tick(float deltaTime)
 {
 	UWorld * World = GetWorld();	
@@ -79,7 +81,10 @@ void ASDTAIController::Tick(float deltaTime)
 	speed = pawn->GetActorForwardVector().GetSafeNormal2D() * newSpeed.Size2D();	//Update the speed vector
 
 }
-void ASDTAIController::FindDeathFloors() { //Fill deathFloorLocations with the position of all death floors
+
+
+//Fill deathFloorLocations with the position of all death floors
+void ASDTAIController::FindDeathFloors() { 
 	
 	TSubclassOf<UStaticMeshComponent> classes;
 	TArray<AActor*> outActors;
@@ -92,12 +97,14 @@ void ASDTAIController::FindDeathFloors() { //Fill deathFloorLocations with the p
 	}
 }
 
+
 FVector ASDTAIController::GetSpeedVector(FVector speedVector, FVector accVector, float deltaTime) {
 	if ((speedVector + accVector*deltaTime).Size2D() > vitesseMax) {
 		return speedVector.GetSafeNormal2D() * vitesseMax;
 	}
 	return speedVector + accVector * deltaTime;
 }
+
 
 void ASDTAIController::DrawCharacterAxes(UWorld * world, APawn * pawn)
 {
@@ -106,7 +113,10 @@ void ASDTAIController::DrawCharacterAxes(UWorld * world, APawn * pawn)
 	DrawDebugDirectionalArrow(world, playerLocation, playerLocation + pawn->GetActorForwardVector() * 100.0f, 100, FColor::Blue);
 	DrawDebugDirectionalArrow(world, playerLocation, playerLocation + pawn->GetActorUpVector() * 100.0f, 100, FColor::Blue);
 }
-bool ASDTAIController::isOnDeathFloor(FVector start, FVector end) { //Returns true if the path from [start] to [end] is close or on a death floor
+
+
+//Returns true if the path from [start] to [end] is close or on a death floor
+bool ASDTAIController::isOnDeathFloor(FVector start, FVector end) { 
 	FVector path = end - start;
 	for (std::list<FVector>::iterator it = deathFloorLocations.begin(); it != deathFloorLocations.end(); it++) {
 		FVector dir = *it - start;
@@ -119,8 +129,11 @@ bool ASDTAIController::isOnDeathFloor(FVector start, FVector end) { //Returns tr
 	}
 	return false;
 }
-bool ASDTAIController::HandleCollect(FVector currentLocation) { //Returns true if a collectible is in sight (no obstacle) and close enough
-	
+
+
+//Returns true if a collectible is in sight (no obstacle) and close enough
+bool ASDTAIController::HandleCollect(FVector currentLocation) { 
+
 	//ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	//ASoftDesignTrainingMainCharacter* main = Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
 	
@@ -147,12 +160,18 @@ bool ASDTAIController::HandleCollect(FVector currentLocation) { //Returns true i
 	}
 	return false;
 }
-ASoftDesignTrainingMainCharacter* ASDTAIController::GetMain() { //Returns the main character
+
+
+//Returns the main character
+ASoftDesignTrainingMainCharacter* ASDTAIController::GetMain() { 
 	
 	ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	return Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
 }
-void ASDTAIController::HandleCollision(FVector currentLocation)	//Handles walls and chasing the main character
+
+
+//Handles walls and chasing the main character
+void ASDTAIController::HandleCollision(FVector currentLocation)	
 {	
 	ASoftDesignTrainingMainCharacter* main = GetMain();
 
