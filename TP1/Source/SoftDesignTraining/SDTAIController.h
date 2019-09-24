@@ -2,6 +2,7 @@
 
 #pragma once
 #include <list>
+#include "SoftDesignTrainingMainCharacter.h"
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "SDTAIController.generated.h"
@@ -16,10 +17,14 @@ class SOFTDESIGNTRAINING_API ASDTAIController : public AAIController
 public:
     virtual void Tick(float deltaTime) override;
 	ASDTAIController ();
+	void FindDeathFloors();
 	FVector GetSpeedVector(FVector speedVector, FVector accVector, float deltaTime);
 	void DrawCharacterAxes(UWorld * world, APawn * pawn);
+	bool isOnDeathFloor(FVector start, FVector end);
 	void HandleCollision(FVector currentLocation);
 	bool HandleCollect(FVector currentLocation);
+
+	ASoftDesignTrainingMainCharacter * GetMain();
 	
 protected:
 	float acc;

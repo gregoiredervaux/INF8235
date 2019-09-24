@@ -18,12 +18,13 @@
 const float DISTANCE_CHECK = 250.0f; //Max distance at which the agent will detect obstacles
 const float DISTANCE_COLLECTIBLE_CHECK = 800.0f; //Max distance at which the agent will detect collectibles
 const float MAX_ANGLE_CHECK = 130; //Only paths with [MAX_ANGLE_CHECK or less] rotation necessary will be considered.
-const float MAX_ROTATION_PER_TICK = 10; //if [newDirection.Yaw > MAX_ROTATION_PER_TICK], the pawn's current rotation will increase of MAX_ROTATION_PER_TICK every tick until it reaches newDirection.Yaw
+const float MAX_ROTATION_PER_TICK = 15; //if [newDirection.Yaw > MAX_ROTATION_PER_TICK], the pawn's current rotation will increase of MAX_ROTATION_PER_TICK every tick until it reaches newDirection.Yaw
 const float MIN_PLAYER_DISTANCE_FOR_COLLECTIBLE = 500.0f; //if [distanceToPlayer <= MIN_PLAYER_DISTANCE_FOR_COLLECTIBLE], the pawn will ignore collectibles and only react to the player movement
 
 const FVector INITIAL_SPEED(0, 0, 0);
-const float MAX_SPEED = 500.0f;
-const float ACCELERATION = 500.0f;
+const float MAX_SPEED = 650.0f;
+const float ACCELERATION = 350.0f;
+const int MIN_DISTANCE_TRAPS = 380.0f;
 
 
 ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEED), acc(ACCELERATION),currentRotation(0),targetCollectibleLocation(0,0,0),deathFloorLocations() {
@@ -31,59 +32,68 @@ ASDTAIController::ASDTAIController() : speed(INITIAL_SPEED), vitesseMax(MAX_SPEE
 }
 void ASDTAIController::Tick(float deltaTime)
 {
-	UWorld * World = GetWorld();
-	
+	UWorld * World = GetWorld();	
 	APawn* pawn = GetPawn();
 
-	// GET DEATH TRAPS
-	TSubclassOf<UStaticMeshComponent> classes;
-	TArray<AActor*> outActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AStaticMeshActor::StaticClass(), outActors);
-
-	if (deathFloorLocations.size() == 0)
-	for (int i = 0; i < outActors.Num(); i++) {
-		if (outActors[i]->GetName().Contains("DeathFloor")) {
-			deathFloorLocations.push_front(outActors[i]->GetActorLocation());
-			UE_LOG(LogTemp, Warning, TEXT("class is : %s"), *outActors[i]->GetName());
-		}
+	// GET DEATH FLOORS
+	if (deathFloorLocations.size() == 0) {
+		FindDeathFloors();
 	}
-	UE_LOG(LogTemp, Warning, TEXT("size of array is : %s"), *FString::FromInt(deathFloorLocations.size()));	
 	//
 
 	if (currentRotation == 0 && !HandleCollect(pawn->GetActorLocation())) {
-		HandleCollision(pawn->GetActorLocation());
+		HandleCollision(pawn->GetActorLocation()); //Only handle collision if no rotation is occuring and no collectible is in sight
 		
 	}	
-	FVector accVector = pawn->GetActorForwardVector() * acc; 
-	FVector newSpeed = GetSpeedVector(speed, accVector, deltaTime); //Get new speed vector based on acc
+	//FVector accVector = pawn->GetActorForwardVector() * acc;
+//	FVector newSpeed = GetSpeedVector(speed, accVector, deltaTime); //Get new speed vector based on acc
 
-	pawn->SetActorLocation(pawn->GetActorLocation() + newSpeed * deltaTime);
+	pawn->SetActorLocation(pawn->GetActorLocation() + speed * deltaTime);
 	
-	if (FVector::Dist(newSpeed.GetSafeNormal(), pawn->GetActorForwardVector()) > 0.1f) {
+	if (FVector::Dist(speed.GetSafeNormal(), pawn->GetActorForwardVector()) > 0.1f) { //If the speed vector is not pointing in the same direction as the orientation
 		FRotator curr = pawn->GetActorForwardVector().Rotation();
-		FRotator dir = newSpeed.GetSafeNormal2D().Rotation();
-		float angle = currentRotation ? currentRotation : dir.Yaw - curr.Yaw;
-		angle = angle > 180 ? -(360 - angle) : angle;
+		FRotator dir = speed.GetSafeNormal2D().Rotation();
+		float angle = currentRotation ? currentRotation : dir.Yaw - curr.Yaw; //Only update if there is not a current rotation
+		angle = angle > 180 ? -(360-angle) : angle;
 
-		if (std::abs(angle) > MAX_ROTATION_PER_TICK) {
+		int nbTicksForRotation = std::abs(angle) / MAX_ROTATION_PER_TICK;
+		//acc -= nbTicksForRotation * ACCELERATION; //Slow down depending on the scale of the rotation
+		if (std::abs(angle) > MAX_ROTATION_PER_TICK) { //Set a current rotation that will occur on more than 1 tick
 			currentRotation = angle > 0 ? angle - MAX_ROTATION_PER_TICK : angle + MAX_ROTATION_PER_TICK;
 			pawn->SetActorRotation(FQuat(pawn->GetActorRotation() + FRotator(0.0f, angle > 0 ? MAX_ROTATION_PER_TICK :-MAX_ROTATION_PER_TICK, 0.0f)));
 			
 		}
-		else {
+		else { //Do the full rotation at once since the angle is small
 			pawn->SetActorRotation(FQuat(pawn->GetActorRotation() + FRotator(0.0f, angle, 0.0f)));
 			currentRotation = 0;
+			acc = ACCELERATION;
 		}
 	}
 	else {
 		currentRotation = 0;
+		acc = ACCELERATION;
+		
 	}
-	speed = pawn->GetActorForwardVector().GetSafeNormal2D() * newSpeed.Size2D();
+	FVector accVector = pawn->GetActorForwardVector() * acc;
+	FVector newSpeed = GetSpeedVector(speed, accVector, deltaTime); //Get new speed vector based on acc
+	speed = pawn->GetActorForwardVector().GetSafeNormal2D() * newSpeed.Size2D();	//Update the speed vector
 
+}
+void ASDTAIController::FindDeathFloors() { //Fill deathFloorLocations with the position of all death floors
+	
+	TSubclassOf<UStaticMeshComponent> classes;
+	TArray<AActor*> outActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AStaticMeshActor::StaticClass(), outActors);
+
+	for (int i = 0; i < outActors.Num(); i++) {
+		if (outActors[i]->GetName().Contains("DeathFloor")) {
+			deathFloorLocations.push_front(outActors[i]->GetActorLocation());
+		}
+	}
 }
 
 FVector ASDTAIController::GetSpeedVector(FVector speedVector, FVector accVector, float deltaTime) {
-	if (speedVector.Size2D() > vitesseMax) {
+	if ((speedVector + accVector*deltaTime).Size2D() > vitesseMax) {
 		return speedVector.GetSafeNormal2D() * vitesseMax;
 	}
 	return speedVector + accVector * deltaTime;
@@ -96,28 +106,38 @@ void ASDTAIController::DrawCharacterAxes(UWorld * world, APawn * pawn)
 	DrawDebugDirectionalArrow(world, playerLocation, playerLocation + pawn->GetActorForwardVector() * 100.0f, 100, FColor::Blue);
 	DrawDebugDirectionalArrow(world, playerLocation, playerLocation + pawn->GetActorUpVector() * 100.0f, 100, FColor::Blue);
 }
-bool ASDTAIController::HandleCollect(FVector currentLocation) {
+bool ASDTAIController::isOnDeathFloor(FVector start, FVector end) { //Returns true if the path from [start] to [end] is close or on a death floor
+	FVector path = end - start;
+	for (std::list<FVector>::iterator it = deathFloorLocations.begin(); it != deathFloorLocations.end(); it++) {
+		FVector dir = *it - start;
+		dir.Z = 0;
+		float dist = (*it - end).Size2D(); //distance between the end of the vector and the death floor
+		float angleTo = std::acos(FVector::DotProduct(dir.GetSafeNormal2D(), path.GetSafeNormal2D()));
+		if (angleTo < 30 && dist < MIN_DISTANCE_TRAPS) {
+			return true;
+		}
+	}
+	return false;
+}
+bool ASDTAIController::HandleCollect(FVector currentLocation) { //Returns true if a collectible is in sight (no obstacle) and close enough
 	
-	ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
-	ASoftDesignTrainingMainCharacter* main = Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
-	float distanceToPlayer = main ? (currentLocation - main->GetActorLocation()).Size2D() : 99999;
+	//ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	//ASoftDesignTrainingMainCharacter* main = Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
+	
+	float distanceToPlayer = GetMain() ? (currentLocation - GetMain()->GetActorLocation()).Size2D() : 99999;
 
 	TSubclassOf<ASDTCollectible> classes;
 	TArray<AActor*> outActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTCollectible::StaticClass(), outActors);
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTCollectible::StaticClass(), outActors); //fetch all ASDTCollectibles
 	int minDistance = 99999;
 	for (int i = 0; i < outActors.Num(); i++) {
 		FVector pos = outActors[i]->GetActorLocation();
-		int norme = (currentLocation-pos).Size2D();
-		if (norme < minDistance) {
-			minDistance = norme;
-			targetCollectibleLocation = pos;
-		}
+		int norm = (currentLocation-pos).Size2D();
 		
-		if (norme < DISTANCE_COLLECTIBLE_CHECK && !((ASDTCollectible*)outActors[i])->IsOnCooldown()) {
-			bool isOk = !SDTUtils::Raycast(GetWorld(), currentLocation,pos);
-			if (isOk) {
-				if (norme < distanceToPlayer && distanceToPlayer > MIN_PLAYER_DISTANCE_FOR_COLLECTIBLE) {
+		if (norm < DISTANCE_COLLECTIBLE_CHECK && !((ASDTCollectible*)outActors[i])->IsOnCooldown()) {
+			bool isInSight = !SDTUtils::Raycast(GetWorld(), currentLocation,pos) && !isOnDeathFloor(currentLocation,pos);
+			if (isInSight) {
+				if (norm < distanceToPlayer && distanceToPlayer > MIN_PLAYER_DISTANCE_FOR_COLLECTIBLE) { //If the player is too close, ignore the collectible
 					speed = (pos - currentLocation).GetSafeNormal2D() * speed.Size();
 					targetCollectibleLocation = pos;
 					return true;
@@ -127,45 +147,54 @@ bool ASDTAIController::HandleCollect(FVector currentLocation) {
 	}
 	return false;
 }
-void ASDTAIController::HandleCollision(FVector currentLocation)
-{	
+ASoftDesignTrainingMainCharacter* ASDTAIController::GetMain() { //Returns the main character
+	
 	ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
-
-	ASoftDesignTrainingMainCharacter* main = Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
+	return Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
+}
+void ASDTAIController::HandleCollision(FVector currentLocation)	//Handles walls and chasing the main character
+{	
+	ASoftDesignTrainingMainCharacter* main = GetMain();
 
 	TArray<FHitResult> hits;
 	FVector start = currentLocation;
 	FVector end = start + speed.GetSafeNormal()* DISTANCE_CHECK;
-	FVector bestDir = targetCollectibleLocation;//GetPawn()->GetActorForwardVector();
-	if (main) {
-		bestDir = main->IsPoweredUp() ? start - main->GetActorLocation() : main->GetActorLocation() - start; //Direction we would like the pawn to use
+	FVector bestDir = GetPawn()->GetActorForwardVector();
+	if (main) { //If the main character exists, we want to choose a direction which helps us follow or run away from him
+		bestDir = main->IsPoweredUp() ? start - main->GetActorLocation() : main->GetActorLocation() - start; 
 	}
-	FCollisionShape shape = FCollisionShape::MakeCapsule(42, 96);
+	FCollisionShape shape = FCollisionShape::MakeCapsule(42, 96); //Shape representing the pawn
 
 	int norm = bestDir.Size2D();
-	norm = main && main->IsPoweredUp() ? DISTANCE_CHECK : std::min(norm,(int)DISTANCE_CHECK);
-	if(main && !GetWorld()->SweepMultiByChannel(hits, start, start + bestDir.GetSafeNormal2D() * norm, speed.GetSafeNormal2D().ToOrientationQuat(),ECC_Pawn, shape)){
+	if (main) {
+		norm = main->IsPoweredUp() ? DISTANCE_CHECK : std::min(norm, (int)DISTANCE_CHECK); //Only raycast at the distance from main if it's closer than DISTANCE_CHECK
+	}
+	if(main && !GetWorld()->SweepMultiByChannel(hits, start, start + bestDir.GetSafeNormal2D() * norm, speed.GetSafeNormal2D().ToOrientationQuat(),ECC_Pawn, shape)
+		&& !isOnDeathFloor(start, start + bestDir.GetSafeNormal2D() * norm)){ //Path to bestDir is clear
 		speed = bestDir.GetSafeNormal2D() * speed.Size2D();
 		return;
 	}
 	FRotator leftVector = speed.GetSafeNormal2D().Rotation();
 	FRotator rightVector = speed.GetSafeNormal2D().Rotation();
-	bool wallAhead = GetWorld()->SweepMultiByChannel(hits, start, end, speed.GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape);
-	DrawDebugCapsule(GetWorld(), end, shape.GetCapsuleHalfHeight(), shape.GetCapsuleRadius(), FQuat::Identity, FColor::Green);
-		
+	bool wallAhead = GetWorld()->SweepMultiByChannel(hits, start, end, speed.GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape)
+		|| isOnDeathFloor(start,end);
 	bool leftClear = false;
 	bool rightClear = false;
 	int angle = 0;
-	while (wallAhead && angle < MAX_ANGLE_CHECK) { //As long as the current direction leads to a wall
-		if (!leftClear) {
+	while (wallAhead && angle < 180) { //As long as the current direction leads to a wall
+		if (!leftClear) { //Raycast to the left and see if it's clear
 			leftVector.Yaw -= 1;
+			leftClear = !GetWorld()->SweepMultiByChannel(hits, start, start + leftVector.Vector().GetSafeNormal2D() * DISTANCE_CHECK, leftVector.Vector().GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape)
+				&& !isOnDeathFloor(start, start + leftVector.Vector().GetSafeNormal2D()*DISTANCE_CHECK);
 		}
-		if (!rightClear) {
+		if (!rightClear) { //Raycast to the right and see if it's clear
 			rightVector.Yaw += 1;
-		}
-		leftClear = !GetWorld()->SweepMultiByChannel(hits, start, start + leftVector.Vector().GetSafeNormal2D() * DISTANCE_CHECK, leftVector.Vector().GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape);			
-		rightClear = !GetWorld()->SweepMultiByChannel(hits, start, start + rightVector.Vector().GetSafeNormal2D() * DISTANCE_CHECK, rightVector.Vector().GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape);
-		wallAhead = !leftClear || !rightClear;
+			rightClear = !GetWorld()->SweepMultiByChannel(hits, start, start + rightVector.Vector().GetSafeNormal2D() * DISTANCE_CHECK, rightVector.Vector().GetSafeNormal2D().ToOrientationQuat(), ECC_Pawn, shape)
+				&& !isOnDeathFloor(start, start + rightVector.Vector().GetSafeNormal2D()*DISTANCE_CHECK);
+		}		
+		bool bothCleared = leftClear && rightClear;
+		bool atLeastOneClear = leftClear || rightClear;
+		wallAhead = !bothCleared && !(atLeastOneClear && angle >= MAX_ANGLE_CHECK); //We try to clear both sides, but leave the loop if we reached the MAX_ANGLE + 1 side is clear
 		angle++;
 	}
 	//Find direction closest to bestDir
@@ -177,14 +206,18 @@ void ASDTAIController::HandleCollision(FVector currentLocation)
 	if (rightClear) {
 		angleRight = std::acos(FVector::DotProduct(rightVector.Vector().GetSafeNormal2D(), bestDir.GetSafeNormal2D()));
 	}
-	if (leftClear && (rightClear ? angleLeft< angleRight: true)) {
+
+	if (leftClear && (rightClear ? angleLeft< angleRight: true)) { 
 		
 		speed = leftVector.Vector().GetSafeNormal2D() * speed.Size2D();
 	}
 	else if (rightClear && (leftClear ? angleRight < angleLeft:true)) {
 		
 		speed = rightVector.Vector().GetSafeNormal2D() * speed.Size2D();
-	}	
+	}
+	else if (wallAhead) { //Means we did not find a clear path
+		speed = -speed;
+	}
 }
 
 
