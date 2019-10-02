@@ -1,0 +1,1154 @@
+﻿Log file open, 10/05/18 11:59:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SoftDesignTraining
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-795155982) SRandInit(-795155982).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.293371
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Binaries/Win64/UE4Editor-SoftDesignTraining.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3709383
+LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: D:/UnrealEngine_4.18.0/UnrealEngine/4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.05-15.59.11:377][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.05-15.59.11:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.05-15.59.11:396][  0]LogInit: Computer: MTL-BE006
+[2018.10.05-15.59.11:396][  0]LogInit: User: bfillion
+[2018.10.05-15.59.11:396][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.10.05-15.59.11:396][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2018.10.05-15.59.11:397][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2018.10.05-15.59.11:397][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.05-15.59.11:397][  0]LogMemory: Process Physical Memory: 273.60 MB used, 273.60 MB peak
+[2018.10.05-15.59.11:397][  0]LogMemory: Process Virtual Memory: 270.01 MB used, 270.01 MB peak
+[2018.10.05-15.59.11:397][  0]LogMemory: Physical Memory: 22678.77 MB used,  42759.24 MB free, 65438.01 MB total
+[2018.10.05-15.59.11:397][  0]LogMemory: Virtual Memory: 649.25 MB used,  42759.24 MB free, 134217728.00 MB total
+[2018.10.05-15.59.11:621][  0]LogInit: Using OS detected language (en-US).
+[2018.10.05-15.59.11:621][  0]LogInit: Using OS detected locale (en-CA).
+[2018.10.05-15.59.11:627][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.05-15.59.12:159][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.05-15.59.12:575][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.05-15.59.12:632][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.05-15.59.12:632][  0]LogD3D11RHI:       4058/0/32719 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.05-15.59.12:634][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.05-15.59.12:634][  0]LogD3D11RHI:       0/0/32719 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.05-15.59.12:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.05-15.59.12:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.05-15.59.12:648][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.05-15.59.12:648][  0]LogWindows: EnumDisplayDevices:
+[2018.10.05-15.59.12:648][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.05-15.59.12:648][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:648][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:649][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:649][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:649][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:649][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:649][  0]LogWindows:    7. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:650][  0]LogWindows:    8. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:650][  0]LogWindows:    9. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:650][  0]LogWindows:    10. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:650][  0]LogWindows:    11. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:651][  0]LogWindows:    12. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:651][  0]LogWindows:    13. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:651][  0]LogWindows:    14. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:652][  0]LogWindows:    15. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.05-15.59.12:652][  0]LogWindows: DebugString: FoundDriverCount:16 
+[2018.10.05-15.59.12:652][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.05-15.59.12:652][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2018.10.05-15.59.12:652][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2018.10.05-15.59.12:652][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2018.10.05-15.59.12:687][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.05-15.59.12:729][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.05-15.59.12:731][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Intermediate/Shaders/WorkingDirectory/16040/).
+[2018.10.05-15.59.12:732][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bfillion/AppData/Local/Temp/UnrealShaderWorkingDir/F0AA235D4B8D925C621C989A4464D921/'.
+[2018.10.05-15.59.12:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.05-15.59.13:946][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.05-15.59.14:013][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.05-15.59.14:077][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.05-15.59.14:145][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.05-15.59.14:214][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.05-15.59.14:270][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.05-15.59.14:327][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.05-15.59.14:384][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.05-15.59.14:432][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.05-15.59.14:495][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.05-15.59.14:560][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.05-15.59.14:614][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.05-15.59.14:667][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.05-15.59.14:727][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.05-15.59.14:844][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.05-15.59.14:844][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.05-15.59.14:894][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.05-15.59.14:933][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.05-15.59.15:022][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.05-15.59.15:048][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.05-15.59.15:102][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.05-15.59.15:164][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.05-15.59.15:220][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.05-15.59.15:270][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.05-15.59.15:270][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.05-15.59.15:770][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: Loaded boot cache 0.11s 82MB C:/Users/bfillion/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bfillion/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.05-15.59.15:875][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.05-15.59.15:891][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.05-15.59.15:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bfillion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.05-15.59.15:916][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.05-15.59.15:916][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.05-15.59.15:917][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.05-15.59.15:917][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.05-15.59.16:317][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.05-15.59.16:660][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.05-15.59.16:699][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.05-15.59.16:699][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.05-15.59.16:699][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.05-15.59.16:699][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.05-15.59.16:699][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.05-15.59.16:740][  0]LogNetVersion: SoftDesignTraining , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3688862555)
+[2018.10.05-15.59.16:909][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.10.05-15.59.17:455][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.079583 seconds
+[2018.10.05-15.59.17:460][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.10.05-15.59.17:460][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.10.05-15.59.17:460][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.05-15.59.17:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.10.05-15.59.20:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.05-15.59.20:412][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.05-15.59.21:419][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.10.05-15.59.21:902][  0]SourceControl: Source control is disabled
+[2018.10.05-15.59.21:902][  0]SourceControl: Source control is disabled
+[2018.10.05-15.59.21:964][  0]SourceControl: Source control is disabled
+[2018.10.05-15.59.22:023][  0]SourceControl: Source control is disabled
+[2018.10.05-15.59.22:948][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.05-15.59.23:260][  0]LogOcInput: OculusInput pre-init called
+[2018.10.05-15.59.23:542][  0]LogEngine: Initializing Engine...
+[2018.10.05-15.59.23:545][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.05-15.59.23:769][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/SoftDesignTraining.SDT_WorldSettings'
+[2018.10.05-15.59.23:769][  0]LogEngine: Error: Failed to load '/Script/SoftDesignTraining.SDT_WorldSettings', falling back to 'WorldSettings'
+[2018.10.05-15.59.23:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.05-15.59.23:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.05-15.59.23:904][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.05-15.59.23:914][  0]LogInit: XAudio2 using 'Remote Audio' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.05-15.59.23:967][  0]LogInit: FAudioDevice initialized.
+[2018.10.05-15.59.24:104][  0]LogDerivedDataCache: Saved boot cache 0.14s 82MB C:/Users/bfillion/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.10.05-15.59.24:121][  0]LogInit: Texture streaming: Enabled
+[2018.10.05-15.59.24:215][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.05-15.59.24:347][  0]LogInit: Transaction tracking system initialized
+[2018.10.05-15.59.24:658][  0]BlueprintLog: New page: Editor Load
+[2018.10.05-15.59.25:544][  0]LocalizationService: Localization service is disabled
+[2018.10.05-15.59.26:123][  0]LogLinker: Warning: Can't find file '/Game/TopDown/TopDownOverview'
+[2018.10.05-15.59.26:123][  0]LogLinker: Warning: Can't find file '/Game/TopDown/TopDownOverview'
+[2018.10.05-15.59.26:123][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDown/TopDownOverview.TopDownOverview_C'
+[2018.10.05-15.59.26:344][  0]LogConsoleResponse: Display: 
+[2018.10.05-15.59.26:516][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.05-15.59.26:516][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.05-15.59.26:516][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.05-15.59.26:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/' took 0.02s
+[2018.10.05-15.59.27:849][  0]SourceControl: Source control is disabled
+[2018.10.05-15.59.27:850][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/UnrealEngine_4.18.0/UnrealEngine/4.18/FeaturePacks/StarterContent.upack)
+[2018.10.05-15.59.27:859][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.10.05-15.59.27:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.10.05-15.59.27:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.10.05-15.59.27:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.10.05-15.59.27:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.10.05-15.59.27:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.10.05-15.59.27:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.10.05-15.59.27:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.10.05-15.59.27:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.10.05-15.59.27:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.10.05-15.59.27:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.10.05-15.59.27:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.10.05-15.59.27:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.10.05-15.59.27:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.10.05-15.59.27:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.10.05-15.59.27:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.10.05-15.59.27:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.10.05-15.59.27:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.10.05-15.59.27:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Fire01.uasset"
+[2018.10.05-15.59.27:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.10.05-15.59.27:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.10.05-15.59.27:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.10.05-15.59.27:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Light01.uasset"
+[2018.10.05-15.59.27:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.10.05-15.59.27:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Light02.uasset"
+[2018.10.05-15.59.27:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.10.05-15.59.27:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.10.05-15.59.27:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.10.05-15.59.27:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.10.05-15.59.27:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.10.05-15.59.27:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.10.05-15.59.28:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.10.05-15.59.28:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.10.05-15.59.28:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.10.05-15.59.28:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Steam01.uasset"
+[2018.10.05-15.59.28:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.10.05-15.59.28:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.10.05-15.59.28:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.10.05-15.59.28:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.10.05-15.59.28:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.10.05-15.59.28:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.10.05-15.59.28:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.10.05-15.59.28:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.10.05-15.59.28:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.10.05-15.59.28:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.10.05-15.59.28:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.10.05-15.59.28:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.10.05-15.59.28:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.10.05-15.59.28:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.10.05-15.59.28:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.10.05-15.59.28:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.10.05-15.59.28:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.10.05-15.59.28:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.10.05-15.59.28:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.10.05-15.59.28:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.10.05-15.59.28:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.10.05-15.59.28:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.10.05-15.59.28:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap"
+[2018.10.05-15.59.28:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.10.05-15.59.28:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.10.05-15.59.28:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.10.05-15.59.28:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.10.05-15.59.28:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.10.05-15.59.28:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.10.05-15.59.28:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.10.05-15.59.28:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.10.05-15.59.28:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.10.05-15.59.28:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.10.05-15.59.28:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.10.05-15.59.28:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.10.05-15.59.28:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.10.05-15.59.28:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.10.05-15.59.28:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.10.05-15.59.28:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.10.05-15.59.28:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.10.05-15.59.28:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.10.05-15.59.28:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.10.05-15.59.28:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.10.05-15.59.28:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.10.05-15.59.28:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.10.05-15.59.28:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.10.05-15.59.28:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.10.05-15.59.28:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.10.05-15.59.28:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.10.05-15.59.28:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.10.05-15.59.28:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.10.05-15.59.28:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.10.05-15.59.28:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.10.05-15.59.28:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.10.05-15.59.28:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.10.05-15.59.28:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.10.05-15.59.28:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.10.05-15.59.28:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.10.05-15.59.28:353][  0]LogPackFactory: Error: Unable to copy file "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset".
+[2018.10.05-15.59.28:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.10.05-15.59.28:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.10.05-15.59.28:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.10.05-15.59.28:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.10.05-15.59.28:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.10.05-15.59.28:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.10.05-15.59.28:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.10.05-15.59.28:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.10.05-15.59.28:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.10.05-15.59.28:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.10.05-15.59.28:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.10.05-15.59.28:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.10.05-15.59.28:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.10.05-15.59.28:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.10.05-15.59.28:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.10.05-15.59.28:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.10.05-15.59.28:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.10.05-15.59.28:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.10.05-15.59.28:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.10.05-15.59.28:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.10.05-15.59.28:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.10.05-15.59.28:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.10.05-15.59.28:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.10.05-15.59.28:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.10.05-15.59.28:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.10.05-15.59.28:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.10.05-15.59.28:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.10.05-15.59.28:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.10.05-15.59.28:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.10.05-15.59.28:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Door.uasset"
+[2018.10.05-15.59.28:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.10.05-15.59.28:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.10.05-15.59.28:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.10.05-15.59.28:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.10.05-15.59.28:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.10.05-15.59.28:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.10.05-15.59.28:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.10.05-15.59.28:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.10.05-15.59.28:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.10.05-15.59.28:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.10.05-15.59.28:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.10.05-15.59.28:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.10.05-15.59.28:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.10.05-15.59.28:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.10.05-15.59.28:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.10.05-15.59.28:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.10.05-15.59.28:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.10.05-15.59.28:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.10.05-15.59.28:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.10.05-15.59.28:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.10.05-15.59.28:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.10.05-15.59.28:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.10.05-15.59.28:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.10.05-15.59.28:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.10.05-15.59.28:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.10.05-15.59.28:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.10.05-15.59.28:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.10.05-15.59.28:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.10.05-15.59.28:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.10.05-15.59.28:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.10.05-15.59.28:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.10.05-15.59.28:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.10.05-15.59.28:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.10.05-15.59.28:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.10.05-15.59.28:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.10.05-15.59.28:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.10.05-15.59.28:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.10.05-15.59.28:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.10.05-15.59.28:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.10.05-15.59.28:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.10.05-15.59.28:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.10.05-15.59.28:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.10.05-15.59.28:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.10.05-15.59.28:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.10.05-15.59.28:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.10.05-15.59.28:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.10.05-15.59.28:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.10.05-15.59.28:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.10.05-15.59.28:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.10.05-15.59.28:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.10.05-15.59.28:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.10.05-15.59.28:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.10.05-15.59.28:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.10.05-15.59.28:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.10.05-15.59.28:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.10.05-15.59.28:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.10.05-15.59.28:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.10.05-15.59.28:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.10.05-15.59.28:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.10.05-15.59.28:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.10.05-15.59.28:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.10.05-15.59.28:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.10.05-15.59.28:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.10.05-15.59.28:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.10.05-15.59.28:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.10.05-15.59.28:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.10.05-15.59.28:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.10.05-15.59.28:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.10.05-15.59.28:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.10.05-15.59.28:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.10.05-15.59.28:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.10.05-15.59.28:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.10.05-15.59.28:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.10.05-15.59.29:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.10.05-15.59.29:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.10.05-15.59.29:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.10.05-15.59.29:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.10.05-15.59.29:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.10.05-15.59.29:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.10.05-15.59.29:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.10.05-15.59.29:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.10.05-15.59.29:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.10.05-15.59.29:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.10.05-15.59.29:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.10.05-15.59.29:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.10.05-15.59.29:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.10.05-15.59.29:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.10.05-15.59.29:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.10.05-15.59.29:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.10.05-15.59.29:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.10.05-15.59.29:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.10.05-15.59.29:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.10.05-15.59.29:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.10.05-15.59.29:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.10.05-15.59.29:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.10.05-15.59.29:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.10.05-15.59.29:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.10.05-15.59.29:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.10.05-15.59.29:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.10.05-15.59.29:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.10.05-15.59.29:227][  0]LogPackFactory: Error: Unable to copy file "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_MacroVariation.uasset".
+[2018.10.05-15.59.29:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.10.05-15.59.29:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.10.05-15.59.29:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.10.05-15.59.29:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.10.05-15.59.29:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.10.05-15.59.29:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.10.05-15.59.29:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.10.05-15.59.29:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.10.05-15.59.29:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.10.05-15.59.29:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.10.05-15.59.29:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.10.05-15.59.29:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.10.05-15.59.29:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.10.05-15.59.29:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.10.05-15.59.29:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.10.05-15.59.29:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.10.05-15.59.29:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.10.05-15.59.29:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.10.05-15.59.29:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.10.05-15.59.29:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.10.05-15.59.29:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.10.05-15.59.29:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.10.05-15.59.29:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.10.05-15.59.29:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.10.05-15.59.29:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.10.05-15.59.29:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.10.05-15.59.29:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.10.05-15.59.29:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.10.05-15.59.29:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.10.05-15.59.29:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.10.05-15.59.29:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.10.05-15.59.29:504][  0]LogPackFactory: Error: Unable to copy file "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset".
+[2018.10.05-15.59.29:505][  0]LogPackFactory: Error: Unable to copy file "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset".
+[2018.10.05-15.59.29:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.10.05-15.59.29:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.10.05-15.59.29:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.10.05-15.59.29:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.10.05-15.59.29:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.10.05-15.59.29:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.10.05-15.59.29:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.10.05-15.59.29:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.10.05-15.59.29:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.10.05-15.59.29:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.10.05-15.59.29:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.10.05-15.59.29:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.10.05-15.59.29:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.10.05-15.59.29:696][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.10.05-15.59.29:815][  0]LogSavePackage: Save=13.03ms
+[2018.10.05-15.59.29:815][  0]LogSavePackage: Moving 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Saved/Floor_400x400F89C018A418392BBC411F08C86FC0750.tmp' to 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.10.05-15.59.29:820][  0]LogSavePackage: Display: Finished SavePackage C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.10.05-15.59.29:820][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.10.05-15.59.29:822][  0]Cmd: MAP LOAD FILE="C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/TopDown/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.05-15.59.29:822][  0]LightingResults: New page: Lighting Build
+[2018.10.05-15.59.29:862][  0]MapCheck: New page: Map Check
+[2018.10.05-15.59.29:862][  0]LightingResults: New page: Lighting Build
+[2018.10.05-15.59.29:898][  0]LogBlueprint: Warning: [Compiler SDT_AnimBP] Entry node  Default  is not connected to state
+[2018.10.05-15.59.29:899][  0]LogBlueprint: Warning: [Compiler SDT_AnimBP] There was no entry state connection in  Default
+[2018.10.05-15.59.29:900][  0]LogBlueprint: Warning: [Compiler SDT_AnimBP] [0023.97] Compile of SDT_AnimBP successful, but with 2 Warning(s) [in 5 ms] (/Game/Blueprint/SDT_AnimBP.SDT_AnimBP)
+[2018.10.05-15.59.30:232][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.05-15.59.30:239][  0]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile needed to have new flag set bUsedWithSkeletalMesh !
+[2018.10.05-15.59.30:241][  0]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2018.10.05-15.59.30:334][  0]MapCheck: Warning: M_Tech_Hex_Tile Material /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.10.05-15.59.30:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.05-15.59.30:355][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.05-15.59.30:431][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 75.276ms to complete.
+[2018.10.05-15.59.30:439][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.617
+[2018.10.05-15.59.30:503][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.05-15.59.30:603][  0]LogCollectionManager: Loaded 0 collections in 0.002178 seconds
+[2018.10.05-15.59.30:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Saved/Collections/' took 0.01s
+[2018.10.05-15.59.30:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/Developers/bfillion/Collections/' took 0.01s
+[2018.10.05-15.59.30:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/Collections/' took 0.01s
+[2018.10.05-15.59.30:688][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.05-15.59.30:697][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2378 classes and 521 folders.
+[2018.10.05-15.59.30:787][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.10.05-15.59.30:873][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2018.10.05-15.59.30:943][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2018.10.05-15.59.31:001][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.05-15.59.31:003][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.05-15.59.31:010][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.05-15.59.31:089][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.05-15.59.31:152][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.10.05-15.59.31:349][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2018.10.05-15.59.31:349][  0]LogLoad: (Engine Initialization) Total time: 25.42 seconds
+[2018.10.05-15.59.31:349][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.05-15.59.31:349][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.10.05-15.59.31:377][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.05-15.59.31:428][  1]LogAssetRegistry: Asset discovery search completed in 14.5403 seconds
+[2018.10.05-15.59.31:431][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.05-15.59.31:431][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2018.10.05-15.59.58:530][494]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.10.05-16.00.07:327][233]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.05-16.00.07:762][233]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2018.10.05-16.00.07:847][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.07:847][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.10.05-16.00.07:847][233]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Audio/Starter_Background_Cue
+[2018.10.05-16.00.07:871][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.07:871][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.10.05-16.00.07:874][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.07:874][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.07:874][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.07:875][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.07:883][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.07:883][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue Referenced by Starter_Background_Cue_2
+[2018.10.05-16.00.07:884][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.07:948][233]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2018.10.05-16.00.07:983][233]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2018.10.05-16.00.08:054][233]LogMaterial: Missing cached shader map for material M_TableRound, compiling. 
+[2018.10.05-16.00.08:089][233]LogMaterial: Missing cached shader map for material M_Statue, compiling. 
+[2018.10.05-16.00.08:127][233]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.05-16.00.08:142][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.10.05-16.00.08:142][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset.
+[2018.10.05-16.00.08:142][233]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Fire : Can't find file for asset. /Game/StarterContent/Audio/Fire01_Cue
+[2018.10.05-16.00.08:180][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.10.05-16.00.08:180][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset.
+[2018.10.05-16.00.08:181][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.10.05-16.00.08:181][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:181][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Fire01_Cue
+[2018.10.05-16.00.08:181][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.10.05-16.00.08:181][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:182][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.10.05-16.00.08:182][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Fire01_Cue.Fire01_Cue Referenced by AudioComponent_2
+[2018.10.05-16.00.08:182][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:186][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.10.05-16.00.08:186][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset.
+[2018.10.05-16.00.08:186][233]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Smoke : Can't find file for asset. /Game/StarterContent/Audio/Smoke01_Cue
+[2018.10.05-16.00.08:190][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.10.05-16.00.08:190][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset.
+[2018.10.05-16.00.08:191][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.10.05-16.00.08:191][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:191][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Smoke01_Cue
+[2018.10.05-16.00.08:191][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.10.05-16.00.08:191][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:192][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.10.05-16.00.08:192][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Smoke01_Cue.Smoke01_Cue Referenced by AudioComponent_0
+[2018.10.05-16.00.08:192][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:196][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.10.05-16.00.08:196][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2018.10.05-16.00.08:196][233]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks : Can't find file for asset. /Game/StarterContent/Audio/Fire_Sparks01_Cue
+[2018.10.05-16.00.08:207][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.10.05-16.00.08:208][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2018.10.05-16.00.08:208][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.10.05-16.00.08:208][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:208][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Fire_Sparks01_Cue
+[2018.10.05-16.00.08:208][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.10.05-16.00.08:209][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:209][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.10.05-16.00.08:209][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Fire_Sparks01_Cue.Fire_Sparks01_Cue Referenced by AudioComponent_3
+[2018.10.05-16.00.08:209][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:213][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.10.05-16.00.08:213][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset.
+[2018.10.05-16.00.08:213][233]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Steam : Can't find file for asset. /Game/StarterContent/Audio/Steam01_Cue
+[2018.10.05-16.00.08:219][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.10.05-16.00.08:219][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset.
+[2018.10.05-16.00.08:220][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.10.05-16.00.08:220][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:220][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Steam01_Cue
+[2018.10.05-16.00.08:220][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.10.05-16.00.08:220][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:221][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.10.05-16.00.08:221][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Steam01_Cue.Steam01_Cue Referenced by AudioComponent_1
+[2018.10.05-16.00.08:221][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:897][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.10.05-16.00.08:898][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:898][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Collapse_Cue
+[2018.10.05-16.00.08:898][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.08:898][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:898][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Starter_Background_Cue
+[2018.10.05-16.00.08:899][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.10.05-16.00.08:899][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.08:899][233]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Starter_Music_Cue
+[2018.10.05-16.00.09:017][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.10.05-16.00.09:017][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.09:017][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.09:018][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.09:018][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.10.05-16.00.09:018][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/StarterContent/Maps/StarterMap.umap.
+[2018.10.05-16.00.09:042][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.10.05-16.00.09:042][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.10.05-16.00.09:042][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.09:043][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.09:043][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.10.05-16.00.09:043][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.10.05-16.00.09:043][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.10.05-16.00.09:043][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.10.05-16.00.09:044][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.09:044][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.09:045][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.10.05-16.00.09:045][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.10.05-16.00.09:321][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.10.05-16.00.09:321][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Collapse_Cue.Collapse_Cue Referenced by Collapse_Cue_2
+[2018.10.05-16.00.09:321][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.10.05-16.00.09:321][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.10.05-16.00.09:322][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.10.05-16.00.09:322][233]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.10.05-16.00.09:322][233]LoadErrors: Failed to load /Game/StarterContent/Audio/Starter_Music_Cue.Starter_Music_Cue Referenced by Starter_Music_Cue_5
+[2018.10.05-16.00.09:322][233]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.10.05-16.00.09:414][233]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2018.10.05-16.00.09:549][233]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2018.10.05-16.00.09:620][233]LogMaterial: Missing cached shader map for material M_Frame, compiling. 
+[2018.10.05-16.00.09:673][233]LogMaterial: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2018.10.05-16.00.09:880][233]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2018.10.05-16.00.09:990][233]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2018.10.05-16.00.10:211][233]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2018.10.05-16.00.10:271][233]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2018.10.05-16.00.10:331][233]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2018.10.05-16.00.10:477][233]LogAIModule: Creating AISystem for world StarterMap
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: request failed, libcurl error: 35 (SSL connect error)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 0 (  Trying 52.203.15.83...)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (52.203.15.83) port 443 (#0))
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 6 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 7 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 8 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 10 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 11 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 13 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2018.10.05-16.02.14:009][167]LogHttp: Warning: 0000020B2A2E9D80: libcurl info message cache 14 (Closing connection 0)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: request failed, libcurl error: 0 (No error)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 0 (Connection 8 seems to be dead!)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 1 (Closing connection 8)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 3 (  Trying 35.173.108.73...)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 4 (connect to 35.173.108.73 port 443 failed: Timed out)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 5 (  Trying 35.174.140.88...)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 6 (connect to 35.174.140.88 port 443 failed: Timed out)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 7 (  Trying 35.168.99.131...)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 8 (Connected to datarouter.ol.epicgames.com (35.168.99.131) port 443 (#9))
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 9 (ALPN, offering http/1.1)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 10 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 11 (SSL re-using session ID)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 13 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.10.05-16.28.31:094][898]LogHttp: Warning: 0000020B2A2E9A80: libcurl info message cache 14 (Closing connection 9)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: request failed, libcurl error: 0 (No error)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 0 (Connection 10 seems to be dead!)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 1 (Closing connection 10)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 3 (Connection 11 seems to be dead!)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 4 (Closing connection 11)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 6 (  Trying 52.21.228.94...)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 7 (connect to 52.21.228.94 port 443 failed: Timed out)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 8 (  Trying 52.22.167.223...)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.22.167.223) port 443 (#12))
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 10 (ALPN, offering http/1.1)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 11 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 12 (SSL re-using session ID)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.10.05-16.33.31:118][798]LogHttp: Warning: 0000020B20295C00: libcurl info message cache 14 (Closing connection 12)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: request failed, libcurl error: 0 (No error)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20b72f7bfb8 [serially])
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 2 (  Trying 52.2.36.251...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 3 (connect to 52.2.36.251 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 4 (  Trying 52.1.25.9...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 5 (connect to 52.1.25.9 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 6 (  Trying 52.1.175.27...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 7 (connect to 52.1.175.27 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 8 (  Trying 52.2.250.239...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 9 (connect to 52.2.250.239 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 10 (  Trying 52.200.19.158...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 11 (connect to 52.200.19.158 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 12 (  Trying 52.201.67.204...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 13 (connect to 52.201.67.204 port 443 failed: Timed out)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 14 (  Trying 52.2.103.56...)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 15 (Connected to datarouter.ol.epicgames.com (52.2.103.56) port 443 (#13))
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 16 (ALPN, offering http/1.1)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 17 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 18 (SSL re-using session ID)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 20 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.10.05-16.34.31:118][978]LogHttp: Warning: 0000020B2A2EB100: libcurl info message cache 21 (Closing connection 13)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: request failed, libcurl error: 35 (SSL connect error)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20b72f7bfb8 [serially])
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 2 (  Trying 35.153.13.89...)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 3 (connect to 35.153.13.89 port 443 failed: Timed out)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 4 (  Trying 35.168.132.219...)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 5 (connect to 35.168.132.219 port 443 failed: Timed out)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 6 (  Trying 35.173.61.154...)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 7 (Connected to datarouter.ol.epicgames.com (35.173.61.154) port 443 (#14))
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 8 (ALPN, offering http/1.1)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 9 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 10 (SSL re-using session ID)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 13 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 14 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 16 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 17 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 19 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2018.10.05-16.35.05:787][ 82]LogHttp: Warning: 0000020B2A2EA080: libcurl info message cache 20 (Closing connection 14)
+[2018.10.05-16.42.49:007][576]Cmd: QUIT_EDITOR
+[2018.10.05-16.42.49:022][576]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.05-16.42.49:036][576]LogExit: Preparing to exit.
+[2018.10.05-16.42.49:533][576]LogExit: Editor shut down
+[2018.10.05-16.42.49:538][576]LogExit: Transaction tracking system shut down
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.05-16.42.49:693][576]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.05-16.42.49:778][576]LogExit: Object subsystem successfully closed.
+[2018.10.05-16.42.49:806][576]LogD3D11RHI: Shutdown
+[2018.10.05-16.42.49:806][576]LogD3D11RHI: CleanupD3DDevice
+[2018.10.05-16.42.49:808][576]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.05-16.42.49:817][576]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.10.05-16.42.49:817][576]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.10.05-16.42.49:817][576]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.10.05-16.42.49:817][576]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.10.05-16.42.49:817][576]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine_4.18.0/UnrealEngine/4.18/FeaturePacks/' was aborted.
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.10.05-16.42.49:818][576]LogDirectoryWatcher: A directory notification for 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/Collections/' was aborted.
+[2018.10.05-16.42.49:818][576]LogDirectoryWatcher: A directory notification for 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Content/Developers/bfillion/Collections/' was aborted.
+[2018.10.05-16.42.49:818][576]LogDirectoryWatcher: A directory notification for 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Saved/Collections/' was aborted.
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.10.05-16.42.49:818][576]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.10.05-16.42.49:819][576]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.10.05-16.42.50:503][576]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.10.05-16.42.50:504][576]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.10.05-16.42.50:559][576]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.10.05-16.42.50:560][576]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.10.05-16.42.50:738][576]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.10.05-16.42.50:739][576]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.10.05-16.42.50:740][576]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.10.05-16.42.50:742][576]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.10.05-16.42.50:742][576]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.10.05-16.42.50:742][576]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.10.05-16.42.50:742][576]LogDirectoryWatcher: A directory notification for 'C:/Users/bfillion/Documents/SoftDesignTraining/softdesigntraining/Binaries/Win64' was aborted.
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module SoftDesignTraining (270)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.10.05-16.42.50:743][576]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.10.05-16.42.50:844][576]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.10.05-16.42.50:945][576]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.10.05-16.42.50:946][576]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.10.05-16.42.50:952][576]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.10.05-16.42.50:952][576]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.10.05-16.42.50:952][576]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.10.05-16.42.50:952][576]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.10.05-16.42.50:953][576]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.10.05-16.42.50:955][576]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.10.05-16.42.50:956][576]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.10.05-16.42.51:046][576]LogDerivedDataCache: Shutdown
+[2018.10.05-16.42.51:046][576]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.10.05-16.42.51:046][576]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.05-16.42.51:047][576]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.05-16.42.51:047][576]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.05-16.42.51:048][576]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3346E2D8-4CFE-B2D3-519A-D58A965F919F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.0-3709383%2B%2B%2BUE4%2BRelease-4.18&UserID=2a04fb574999262fe2726c8a89a0418e%7C%7C10da9863-1eac-4eb9-9bf2-052ba0422cf7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.05-16.42.51:065][576]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.05-16.42.51:066][576]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.05-16.42.51:067][576]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.05-16.42.51:072][576]LogExit: Exiting.
+[2018.10.05-16.42.51:083][576]Log file closed, 10/05/18 12:42:51
