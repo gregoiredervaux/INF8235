@@ -79,3 +79,7 @@ DerivedDataCache/*
 # TP1
 TP1/*
 !TP1/Source
+
+# TP2
+TP2/Content/*
+!TP2/Content/Blueprint
