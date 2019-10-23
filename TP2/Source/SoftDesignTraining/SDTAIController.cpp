@@ -10,6 +10,7 @@
 #include "UnrealMathUtility.h"
 #include "SDTUtils.h"
 #include "EngineUtils.h"
+#include "SoftDesignTrainingMainCharacter.h"
 
 ASDTAIController::ASDTAIController(const FObjectInitializer& ObjectInitializer)
     : Super(ObjectInitializer.SetDefaultSubobjectClass<USDTPathFollowingComponent>(TEXT("PathFollowingComponent")))
@@ -19,6 +20,17 @@ ASDTAIController::ASDTAIController(const FObjectInitializer& ObjectInitializer)
 void ASDTAIController::GoToBestTarget(float deltaTime)
 {
     //Move to target depending on current behavior
+	TArray<AActor*> outActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTFleeLocation::StaticClass(), outActors);
+	MoveToActor(outActors[3]);
+	if (Behavior == 1 || Behavior == 2) {
+		MoveToActor(Target);
+	}
+	else if (Behavior == 3) {
+		TArray<AActor*> outActors;
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTFleeLocation::StaticClass(), outActors);
+		MoveToActor(outActors[0]);
+	}
 }
 
 void ASDTAIController::OnMoveToTarget()
@@ -71,6 +83,23 @@ void ASDTAIController::UpdatePlayerInteraction(float deltaTime)
     GetHightestPriorityDetectionHit(allDetectionHits, detectionHit);
 
     //Set behavior based on hit
+	if (&detectionHit) {
+		if (detectionHit.GetComponent()->GetCollisionObjectType() == COLLISION_PLAYER) {
+			ASoftDesignTrainingMainCharacter* main = GetPlayer();
+			if (main) {
+				if (main->IsPoweredUp())
+					Behavior = 3;
+				else {
+					Behavior = 2;
+					Target = detectionHit.GetActor();
+				}
+			}
+		} 
+		else {
+			Behavior = 1;
+			Target = detectionHit.GetActor();
+		}
+	}
 
     DrawDebugCapsule(GetWorld(), detectionStartLocation + m_DetectionCapsuleHalfLength * selfPawn->GetActorForwardVector(), m_DetectionCapsuleHalfLength, m_DetectionCapsuleRadius, selfPawn->GetActorQuat() * selfPawn->GetActorUpVector().ToOrientationQuat(), FColor::Blue);
 }
@@ -99,4 +128,11 @@ void ASDTAIController::AIStateInterrupted()
 {
     StopMovement();
     m_ReachedTarget = true;
+}
+
+//Returns the main character
+ASoftDesignTrainingMainCharacter* ASDTAIController::GetPlayer() {
+
+	ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	return Cast<ASoftDesignTrainingMainCharacter>(playerCharacter);
 }

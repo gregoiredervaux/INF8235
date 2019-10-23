@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "SDTBaseAIController.h"
+#include "SoftDesignTrainingMainCharacter.h"
 #include "SDTAIController.generated.h"
 
 /**
@@ -44,6 +45,11 @@ public:
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AI)
     bool Landing = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AI)
+	int Behavior = 0;
+
+	AActor* Target;
+
 public:
     virtual void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
     void AIStateInterrupted();
@@ -52,6 +58,7 @@ protected:
     void OnMoveToTarget();
     void GetHightestPriorityDetectionHit(const TArray<FHitResult>& hits, FHitResult& outDetectionHit);
     void UpdatePlayerInteraction(float deltaTime);
+	ASoftDesignTrainingMainCharacter* GetPlayer();
 
 private:
     virtual void GoToBestTarget(float deltaTime) override;

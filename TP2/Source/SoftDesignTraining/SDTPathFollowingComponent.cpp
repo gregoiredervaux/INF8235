@@ -21,10 +21,13 @@ void USDTPathFollowingComponent::FollowPathSegment(float DeltaTime)
     if (SDTUtils::HasJumpFlag(segmentStart))
     {
         //update jump
+		Super::FollowPathSegment(DeltaTime);
     }
     else
     {
+		Super::FollowPathSegment(DeltaTime);
         //update navigation along path
+
     }
 }
 
