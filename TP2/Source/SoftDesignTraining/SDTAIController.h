@@ -48,6 +48,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AI)
 	int Behavior = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AI)
+	float NavSpeed = 100.0f;
+
 	AActor* Target;
 
 public:

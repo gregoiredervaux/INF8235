@@ -20,17 +20,21 @@ ASDTAIController::ASDTAIController(const FObjectInitializer& ObjectInitializer)
 void ASDTAIController::GoToBestTarget(float deltaTime)
 {
     //Move to target depending on current behavior
+	UPathFollowingComponent* PathFollowing = Super::GetPathFollowingComponent();
+	UPawnMovementComponent* MoveComponent = GetPawn()->GetMovementComponent();
+
 	TArray<AActor*> outActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTFleeLocation::StaticClass(), outActors);
 	MoveToActor(outActors[3]);
-	if (Behavior == 1 || Behavior == 2) {
-		MoveToActor(Target);
+	/*if (Behavior == 1 || Behavior == 2) {
+		MoveToActor(outActors[3], 100.0f);
 	}
 	else if (Behavior == 3) {
 		TArray<AActor*> outActors;
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTFleeLocation::StaticClass(), outActors);
-		MoveToActor(outActors[0]);
-	}
+		MoveToActor(outActors[3], 100.0f);
+	}*/
+	ShowNavigationPath();
 }
 
 void ASDTAIController::OnMoveToTarget()
@@ -48,6 +52,16 @@ void ASDTAIController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollow
 void ASDTAIController::ShowNavigationPath()
 {
     //Show current navigation path DrawDebugLine and DrawDebugSphere
+	const TArray<FNavPathPoint>& navPoints = GetPathFollowingComponent()->GetPath()->GetPathPoints();
+	FNavPathPoint precedentNavPathPoint;
+	DrawDebugSphere(GetWorld(), navPoints[0].Location, 30.f, 100, FColor::Black);
+	for (FNavPathPoint navPathPoint : navPoints)
+	{
+		DrawDebugSphere(GetWorld(), navPathPoint.Location, 50.f, 24, FColor::Purple);
+		if (precedentNavPathPoint.HasNodeRef() && sizeof(navPoints) > 1)
+			DrawDebugLine(GetWorld(), precedentNavPathPoint.Location, navPathPoint.Location, FColor::Purple);
+		precedentNavPathPoint = navPathPoint;
+	}
 }
 
 void ASDTAIController::ChooseBehavior(float deltaTime)
