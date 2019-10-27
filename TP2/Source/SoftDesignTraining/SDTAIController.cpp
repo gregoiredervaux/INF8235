@@ -15,10 +15,12 @@
 ASDTAIController::ASDTAIController(const FObjectInitializer& ObjectInitializer)
     : Super(ObjectInitializer.SetDefaultSubobjectClass<USDTPathFollowingComponent>(TEXT("PathFollowingComponent")))
 {
+	
 }
 
 void ASDTAIController::GoToBestTarget(float deltaTime)
 {
+	
     //Move to target depending on current behavior
 	TArray<AActor*> outActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASDTFleeLocation::StaticClass(), outActors);
@@ -41,13 +43,14 @@ void ASDTAIController::OnMoveToTarget()
 void ASDTAIController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result)
 {
     Super::OnMoveCompleted(RequestID, Result);
-
+	
     m_ReachedTarget = true;
 }
 
 void ASDTAIController::ShowNavigationPath()
 {
     //Show current navigation path DrawDebugLine and DrawDebugSphere
+	DrawDebugLine(GetWorld(), GetPawn()->GetActorLocation(), Target->GetActorLocation(), FColor::Red);
 }
 
 void ASDTAIController::ChooseBehavior(float deltaTime)
@@ -58,6 +61,8 @@ void ASDTAIController::ChooseBehavior(float deltaTime)
 void ASDTAIController::UpdatePlayerInteraction(float deltaTime)
 {
     //finish jump before updating AI state
+	//AtJumpSegment = false;
+	//}
     if (AtJumpSegment)
         return;
 
@@ -67,6 +72,7 @@ void ASDTAIController::UpdatePlayerInteraction(float deltaTime)
 
     ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
     if (!playerCharacter)
+		//DrawDebugLine(GetWorld(), GetPawn()->GetActorLocation(), GetPawn()->GetActorLocation() + FVector(0, 0, 1000), FColor::Red);
         return;
 
     FVector detectionStartLocation = selfPawn->GetActorLocation() + selfPawn->GetActorForwardVector() * m_DetectionCapsuleForwardStartingOffset;
@@ -100,7 +106,7 @@ void ASDTAIController::UpdatePlayerInteraction(float deltaTime)
 			Target = detectionHit.GetActor();
 		}
 	}
-
+	//DrawDebugLine(GetWorld(), selfPawn->GetActorLocation(), Target->GetActorLocation(), FColor::Blue);
     DrawDebugCapsule(GetWorld(), detectionStartLocation + m_DetectionCapsuleHalfLength * selfPawn->GetActorForwardVector(), m_DetectionCapsuleHalfLength, m_DetectionCapsuleRadius, selfPawn->GetActorQuat() * selfPawn->GetActorUpVector().ToOrientationQuat(), FColor::Blue);
 }
 

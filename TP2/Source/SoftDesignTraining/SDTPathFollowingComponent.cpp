@@ -10,7 +10,7 @@
 
 USDTPathFollowingComponent::USDTPathFollowingComponent(const FObjectInitializer& ObjectInitializer)
 {
-
+	
 }
 
 void USDTPathFollowingComponent::FollowPathSegment(float DeltaTime)
@@ -38,10 +38,17 @@ void USDTPathFollowingComponent::SetMoveSegment(int32 segmentStartIndex)
     const TArray<FNavPathPoint>& points = Path->GetPathPoints();
 
     const FNavPathPoint& segmentStart = points[MoveSegmentStartIndex];
+	ASDTAIController* Controller = dynamic_cast<ASDTAIController*>(GetOwner());
 
     if (SDTUtils::HasJumpFlag(segmentStart) && FNavMeshNodeFlags(segmentStart.Flags).IsNavLink())
     {
+		UCharacterMovementComponent* castedMov = Cast<UCharacterMovementComponent>(MovementComp);		
+		//castedMov->SetMovementMode(MOVE_Flying);
+		DrawDebugLine(GetWorld(), MovementComp->GetActorLocation(), MovementComp->GetActorLocation() + FVector(0, 0, 1000), FColor::Red);
+		Controller->AtJumpSegment = true;
         //Handle starting jump
+		//ASoftDesignTrainingCharacter* castedPlayerCharacter = Cast<ASoftDesignTrainingCharacter>(GetOwner());
+		
     }
     else
     {

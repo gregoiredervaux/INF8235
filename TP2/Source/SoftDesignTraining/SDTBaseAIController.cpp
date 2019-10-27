@@ -9,7 +9,7 @@ ASDTBaseAIController::ASDTBaseAIController(const FObjectInitializer& ObjectIniti
 {
     PrimaryActorTick.bCanEverTick = true;
     PrimaryActorTick.bStartWithTickEnabled = true;
-    m_ReachedTarget = true;
+	m_ReachedTarget = true;
 }
 
 void ASDTBaseAIController::Tick(float deltaTime)
