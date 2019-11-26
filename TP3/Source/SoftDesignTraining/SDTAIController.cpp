@@ -172,7 +172,7 @@ void ASDTAIController::MoveAroundPlayer()
 	OnMoveToTarget();
 
 	double totalTime = FPlatformTime::Seconds() - initialTime;
-	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 10.0f), "[Collectible] cpu time : " + FString::SanitizeFloat(totalTime) + "s", GetPawn(), FColor::Red, 1.0f);
+	DrawDebugString(GetWorld(), FVector(0.f, 0.f, 10.0f), "[Chase] cpu time : " + FString::SanitizeFloat(totalTime) + "s", GetPawn(), FColor::Red, 1.0f);
 	return;
 }
 
@@ -278,6 +278,9 @@ void ASDTAIController::MoveToBestFleeLocation()
 	{
 		MoveToLocation(bestFleeLocation->GetActorLocation(), 0.5f, false, true, false, NULL, false);
 		OnMoveToTarget();
+		double totalTime = FPlatformTime::Seconds() - initialTime;
+		DrawDebugString(GetWorld(), FVector(0.f, 0.f, 10.0f), "[Flee] cpu time : " + FString::SanitizeFloat(totalTime) + "s", GetPawn(), FColor::Red, 1.0f);
+		return;
 	}
 }
 
